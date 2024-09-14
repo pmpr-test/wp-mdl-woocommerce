@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style>
+        body {
+            font-family: {{ font_family|raw }};
+            font-size: 11px;
+        }
+
+        @page {
+            margin: 480px 50px 100px 50px;
+        }
+
+        #header {
+            position: fixed;
+            left: 0px;
+            top: -460px;
+            right: 0px;
+            height: 480px;
+            text-align: center;
+        }
+
+        #footer {
+            position: fixed;
+            left: 0px;
+            bottom: -150px;
+            right: 0px;
+            height: 100px;
+            font-size: 11px;
+            text-align: center;
+        }
+
+        #content {
+            font-size: 10px;
+        }
+
+        #logo img {
+            max-width: 340px;
+        }
+
+        .barcode {
+            text-align: center;
+            width: 50%;
+        }
+
+    </style>
+</head>
+<body>
+
+<div id="header">
+    <table table width="100%">
+        <tr>
+            <td valign="top" width="50%" id="logo">{{ logo|raw }}</td>
+            <td valign="top" width="50%" id="company-info">{{ company_name|raw }}<br/>{{ company_info|raw }}<br/></td>
+        </tr>
+    </table>
+    <table table width="100%">
+        <tr>
+            <td width="20%" valign="top">{{ invoice_num_text|raw }}:</td>
+            <td width="30%" valign="top">{{ invoice_num|raw }}</td>
+            <td width="20%" valign="top">{{ order_num_text|raw }}:</td>
+            <td width="30%" valign="top">{{ order_num|raw }}</td>
+        </tr>
+        <tr>
+            <td valign="top">{{ invoice_date_text|raw }}:</td>
+            <td valign="top">{{ invoice_date|raw }}</td>
+            <td valign="top">{{ order_date_text|raw }}:</td>
+            <td valign="top">{{ order_date|raw }}</td>
+        </tr>
+
+        <tr>
+            <td valign="top">{{ payment_method_text|raw }}:</td>
+            <td valign="top">{{ payment_method|raw }}</td>
+            <td valign="top">{{ shipping_method_text|raw }}:</td>
+            <td valign="top">{{ shipping_method|raw }}</td>
+        </tr>
+
+        <tr>
+            <td valign="top" colspan="2">
+                <h3>{{ billing_details_text|raw }}:</h3>
+                {{ billing_address|raw }}<br/>
+                {{ billing_phone|raw }}<br/>
+                {{ billing_email|raw }}</br>
+                {{ billing_vat_number|raw }}
+            </td>
+            <td valign="top" colspan="2">
+                <h3>{{ shipping_details_text|raw }}:</h3>
+                {{ shipping_address|raw }}
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div id="footer">
+    <div class="copyright">
+        {% if registered_name is not empty %}
+            {{ registered_name_text|raw }}: {{ registered_name|raw }}
+        {% endif %}
+        {% if registered_office is not empty %}
+            {{ registered_office_text|raw }}: {{ registered_office|raw }}
+        {% endif %}
+    </div>
+    <div class="copyright">
+        {% if company_number is not empty %}
+            {{ company_number_text|raw }}: {{ company_number|raw }}
+        {% endif %}
+        {% if vat_number is not empty %}
+            {{ vat_number_text|raw }}: {{ vat_number|raw }}
+        {% endif %}
+    </div>
+</div>
+
+<div id="content">
+
+    <table class="shop_table orderdetails" width="100%">
+        <thead>
+        <tr>
+            <th colspan="{{ columns|length }}" align="left">{{ details_text|raw }}</th>
+        </tr>
+        <tr>
+            {% for column in columns %}
+                <th width="{{ column.width }}%" valign="top" align="left">
+                    {{ column.title|raw }}
+                </th>
+            {% endfor %}
+        </tr>
+        </thead>
+    </table>
+
+    <table width="100%" class="shop_table ordercontent">
+        <tbody>
+        {% for detail in details %}
+            <tr>
+                {% for key, column in columns %}
+                    <td width="{{ column.width }}%" valign="top" align="{{ column.align|default('right') }}">
+                        {{ detail[key]|raw }}
+                    </td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    {{ barcode|raw }}
+
+    <table table width="100%">
+        <tr>
+            <td width="60%" valign="top">
+                {{ notes|raw }}
+            </td>
+            <td width="40%" valign="top" align="right">
+
+                <table width="100%">
+                    {% for item in total_details %}
+                        <tr>
+                            <td>{{ item.title|raw }}</td>
+                            <td>
+                                {% if item.value is iterable %}
+                                    {% for val in item.value %}
+                                        {{ val|raw }}<br/>
+                                    {% endfor %}
+                                {% else %}
+                                    {{ item.value|raw }}
+                                {% endif %}
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</div>
+
+</body>
+</html>

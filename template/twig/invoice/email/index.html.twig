@@ -1,0 +1,19 @@
+{{ do_action( 'woocommerce_email_header', email_heading, email ) }}
+
+<p>{{ hello_message|raw }}</p>
+
+<p>{{ message|raw }}</p>
+
+{{ do_action('woocommerce_email_order_details', order, sent_to_admin, plain_text, email, 1) }}
+
+{{ do_action('woocommerce_email_order_meta', order, sent_to_admin, plain_text, email) }}
+
+{{ do_action('woocommerce_email_customer_details', order, sent_to_admin, plain_text, email) }}
+
+{{ do_action('woocommerce_email_pdf_invoice', order, sent_to_admin, plain_text, email) }}
+
+{% if additional_content %}
+    {{ wp_kses_post(wpautop(wptexturize(additional_content)))|raw }}
+{% endif %}
+
+{{ do_action('woocommerce_email_footer', email) }}

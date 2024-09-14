@@ -1,0 +1,7 @@
+<?php
+/*   _______________________________________
+    |  Obfuscated by PMPR - Php Obfuscator  |
+    |             66e5e7d3a0770             |
+    |_______________________________________|
+*/
+ namespace Pmpr\Module\Woocommerce; use Pmpr\Common\Cover\Woocommerce\Setting as BaseClass; use Pmpr\Common\Foundation\Interfaces\Constants; class Setting extends BaseClass { const qqiuqmkwamakmmky = self::soqkucakwksaeyce . "\166\141\x72\151\x61\x62\x6c\145\137\x70\x72\157\x64\165\x63\164\x5f\147\x75\x69\x64\145"; const kqaecmeyeicscaye = self::soqkucakwksaeyce . "\x73\150\x6f\x70\x5f\x74\141\142\x6c\145\x5f\x76\x69\145\167\x5f\143\157\x6c\x75\155\x6e\163"; public function qssqicawwgqqscui($ikgwqyuyckaewsow = []) { return $this->oaeygwkmgmgksqke([self::qqiuqmkwamakmmky => [Constants::qescuiwgsyuikume => __("\126\141\x72\151\141\164\x69\x6f\156\40\x50\x72\x6f\144\165\143\164\x20\107\165\151\144\145", PR__MDL__WOOCOMMERCE)]], $ikgwqyuyckaewsow, self::imgaumeywmqsacas); } public static function ckgyyysykiycqwwm() { return self::iwgqamekocwaigci()->wikusamwomuogoau()->giiuwsmyumqwwiyq(self::qqiuqmkwamakmmky, ''); } public static function sqsceoaumcqaqqmw() : array { $ygmmaywsqqycaaok = self::iwgqamekocwaigci()->iyowqkwcwiuccgag()->ywqgcuymeiswqyqc(9, 36, 1, 9); $qiouiwasaauyaaue = []; foreach ($ygmmaywsqqycaaok as $eusockqasqqmoess) { $qiouiwasaauyaaue[$eusockqasqqmoess] = sprintf(__("\45\x73\x20\111\x74\x65\155", PR__MDL__WOOCOMMERCE), $eusockqasqqmoess); qiaqsassksqiuyae: } cecuyayqoioasumi: return $qiouiwasaauyaaue; } }

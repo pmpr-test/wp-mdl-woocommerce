@@ -1,0 +1,893 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pmpr Woocommerce\n"
+"POT-Creation-Date: 2022-08-09 11:56+0430\n"
+"PO-Revision-Date: 2022-08-09 11:58+0430\n"
+"Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Source-Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lib\n"
+"X-Poedit-SearchPathExcluded-1: *.js\n"
+
+#: src/Pmpr/Module/Woocommerce/Checkout.php:72
+msgid "Please log in or register to complete your purchase."
+msgstr "لطفا ثبت‌نام کنید یا وارد شوید تا عملیات پرداخت را ادامه دهید."
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Admin.php:68
+msgid "Send PDF"
+msgstr "ارسال PDF"
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Admin.php:96
+msgid "Download PDF"
+msgstr "دانلود PDF"
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Admin.php:198
+msgid "Create Invoice(s)"
+msgstr "ایجاد صورتحساب(ها)"
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Admin.php:199
+msgid "Create and Email Invoice(s)"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Admin.php:200
+msgid "Email Invoice(s)"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Admin.php:230
+msgid "Invoice"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Ajax.php:50
+msgid "Require parameters is messing"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Common.php:122
+msgid "Invoice Title"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Common.php:123
+msgid "Invoice Metadata"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Common.php:124
+#: src/Pmpr/Module/Woocommerce/Invoice/Order.php:320
+msgid "Invoice Number"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Common.php:125
+msgid "Invoice Number Display"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Common.php:126
+msgid "Invoice Created Date"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Common.php:127
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:155
+#: src/Pmpr/Module/Woocommerce/Invoice/Order.php:324
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:335
+msgid "Invoice Date"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Common.php:128
+msgid "Invoice Tax Number"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Common.php:129
+msgid "Invoice Vat Number"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Common.php:130
+msgid "Invoice Company Name"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Common.php:131
+msgid "Invoice Company Info"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Common.php:132
+msgid "Invoice Company Number"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Common.php:133
+msgid "Invoice Registered Name"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Common.php:134
+msgid "Invoice Registered Office"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Email/Customer.php:27
+msgid "Customer PDF invoice"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Email/Customer.php:28
+msgid "Email for customer with order details and PDF invoice attached."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Email/Customer.php:78
+msgid "Your invoice for order #{order_number} on {site_title} is attached"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Email/Customer.php:88
+msgid "Your invoice for order #{order_number} is attached"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Email/Customer.php:121
+msgid "Pay for this order"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Email/Customer.php:124
+#, php-format
+msgid ""
+"An order has been created for you on %1$s. Your invoice is below, with a "
+"link to make payment when you’re ready: %2$s"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Email/Customer.php:129
+#, php-format
+msgid "Here are the details of your order placed on %s:"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Email/Customer.php:139
+#, php-format
+msgid "Hi %s"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Email/Customer.php:152
+msgid "Thanks for using {site_address}!"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Email/Customer.php:179
+#, php-format
+msgid "Available placeholders: %s"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Email/Customer.php:184
+msgid "Enable this email notification"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Email/Customer.php:185
+msgid "Enable/Disable"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Email/Customer.php:191
+msgid "Subject"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Email/Customer.php:199
+msgid "Email heading"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Email/Customer.php:206
+msgid "Subject (paid)"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Email/Customer.php:213
+msgid "Email heading (paid)"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Email/Customer.php:221
+#, fuzzy
+#| msgid "Additional Information"
+msgid "Additional content"
+msgstr "اطلاعات بیشتر"
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Email/Customer.php:223
+msgid "Text to appear below the main email content."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Email/Customer.php:224
+msgid "N/A"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Email/Customer.php:231
+msgid "Email type"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Email/Customer.php:233
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:134
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:265
+msgid "Tax Number"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:136
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:260
+msgid "Vat Number"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:141
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:256
+msgid "Company Number"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:143
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:244
+msgid "Registered Name"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:145
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:251
+msgid "Registered Office"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:149
+msgid "Invoice No."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:152
+#, fuzzy
+#| msgid "Orders"
+msgid "Order No."
+msgstr "سفارش‌ها"
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:158
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:341
+#, fuzzy
+#| msgid "Orders"
+msgid "Order Date"
+msgstr "سفارش‌ها"
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:160
+#, fuzzy
+#| msgid "Billions"
+msgid "Billing Details"
+msgstr "میلیارد"
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:166
+msgid "Shipping Details"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:169
+msgid "Payment Method"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:172
+msgid "Shipping Method"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:176
+#, fuzzy
+#| msgid "Orders"
+msgid "Order Details"
+msgstr "سفارش‌ها"
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:179
+msgid "Notes"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:215
+msgid "Subtotal"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:219
+msgid "Shipping"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:223
+msgid "Discount"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:227
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:586
+msgid "Tax"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:231
+msgid "Grand Total"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:235
+msgid "Totals"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:265
+msgid "Total Tax"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:293
+msgid "Amount Refunded"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:370
+msgid "Coupons used"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:566
+msgid "Product"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:571
+msgid "Qty"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:576
+msgid "Price Ex"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:581
+msgid "Total Ex."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:591
+msgid "Price Inc"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:596
+msgid "Total Inc"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Generator.php:663
+#, php-format
+msgid "VAT Number: %s"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Invoice.php:52
+msgid "MBString"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Invoice.php:56
+msgid "ICONV"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Invoice.php:60
+msgid ""
+"Some required PHP function are not installed, please contact your host and "
+"ask them to install"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Order.php:88
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:77
+msgid "PDF Invoice"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Order.php:155
+msgid "Invoice deleted."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Order.php:156
+msgid "Previous details"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Order.php:168
+msgid "Invoice created manually"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Order.php:180
+msgid "Invoice emailed to customer manually"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Order.php:202
+msgid "Order updated and PDF invoice emailed."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Order.php:218
+msgid "Email Invoice"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Order.php:219
+msgid "Delete Invoice"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Order.php:222
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:131
+msgid "Create Invoice"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Order.php:304
+msgid "Invoice Details"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Order.php:333
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:136
+msgid "Download Invoice"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Order.php:348
+msgid "Download your invoice: "
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:102
+msgid "Completed"
+msgstr "تکمیل شده"
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:103
+msgid "Processing"
+msgstr "در حال پردازش"
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:104
+msgid "Pending"
+msgstr "در انتظار تایید"
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:105
+msgid "On Hold"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:106
+msgid "Manually create invoices"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:111
+msgid "General"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:114
+msgid "Check if you want disable pdf invoice functionality."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:116
+msgid "Disable PDF Invoice"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:119
+msgid ""
+"By default the PDF Invoice extension will only attach to the Completed Order "
+"Email, if you want to attach it to other emails sent by WooCommerce then "
+"make selections here(ctrl-click or cmd-click for multiple selections)"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:120
+msgid "Choose which additional emails to attach the PDF to."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:123
+msgid "Attach to"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:127
+msgid "Set the point during the transaction when the invoice should be created"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:128
+msgid "When to create the invoice."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:135
+msgid "Add a link to download the invoice to the Thank You for your order page"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:136
+#, php-format
+msgid "Check if you want show \"%s\" link on Thank You page."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:138
+msgid "Download on thanks page"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:141
+msgid ""
+"This text is used in emails and the \"thank you\" page to display a link to "
+"download the invoice"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:143
+msgid "Invoice download text"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:144
+msgid "Download your PDF invoice"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:149
+msgid "Email"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:152
+msgid ""
+"Choose how you want to send the invoice to your customer, PDF attachment, "
+"PDF attachment and download link or download link or just show a custom text"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:153
+msgid "Attach a PDF Invoice to the email or include a download link."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:155
+msgid "PDF Attachment & Download Link"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:156
+msgid "Download Link"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:157
+msgid "PDF Attachment"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:158
+msgid "Show Custom Text"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:161
+msgid "Invoice Method"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:171
+msgid "This message will be show on the emails"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:173
+#, fuzzy
+#| msgid "Customer"
+msgid "Custom Text"
+msgstr "مشتری"
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:174
+msgid "Download invoice pdf from your account"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:179
+msgid "PDF Template"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:182
+msgid "Set the pdf template title, show on top of file."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:184
+#, php-format
+msgid "You can use invoice number by adding %s"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:188
+msgid "PDF Title"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:189
+#, php-format
+msgid "INVOICE-%s"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:192
+msgid ""
+"Set the paper size of your PDF invoice, this is only really used if your "
+"customer prints it out."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:194
+msgid "A4"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:195
+msgid "Letter"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:198
+msgid "Paper Size"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:202
+msgid ""
+"Set the paper orientation of your PDF invoice, this is only really used if "
+"your customer prints it out."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:204
+msgid "Portrait"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:205
+msgid "Landscape"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:208
+msgid "Paper Orientation"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:212
+msgid ""
+"Enable font subsetting, which embeds only used characters into the file, set "
+"this to active and test to confirm the invoice looks correct."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:214
+msgid "Font Subsetting"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:219
+#, fuzzy
+#| msgid "Additional Information"
+msgid "Business Information"
+msgstr "اطلاعات بیشتر"
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:223
+#, php-format
+msgid "Add a logo to your PDF, otherwise it will just use your site title %s"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:227
+msgid "PDF Logo"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:230
+msgid "The name of your company, this shows at the top of the invoice"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:232
+msgid "Company Name"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:237
+msgid "This is the address that your business operates from."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:239
+#, fuzzy
+#| msgid "Additional Information"
+msgid "Company Information"
+msgstr "اطلاعات بیشتر"
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:242
+msgid "This sets the legal name of your company."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:249
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:254
+msgid ""
+"This is the legal registered address of your company, it may be different to "
+"the address that your business operates from."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:263
+msgid ""
+"If your business is registered for tax purposes your tax office may have "
+"issued you with a number (in the UK this would be your VAT number)"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:270
+msgid "Invoice Formats"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:273
+msgid ""
+"By default WooCommerce uses the post->ID as the order number so there will "
+"be gaps in the order number sequence. By setting this to Yes invoice numbers "
+"will be sequential."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:275
+msgid "Sequential Invoice Numbering"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:278
+msgid "Will reset the invoice number to 1 for the first order of the year."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:279
+msgid "Reset Invoice Numbering to 1 at the start of each year"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:281
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:312
+msgid "Annual Restart"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:284
+msgid ""
+"What number would you like on the first invoice? Once you have issued an "
+"invoice changing this will make no difference."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:287
+msgid "Number of First Invoice"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:290
+msgid ""
+"Set the length of the number part of your invoice number. EG 000000 would "
+"give an invoice number like ABC-000492."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:291
+#, php-format
+msgid "For example %s"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:293
+msgid "Invoice Number Pattern"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:297
+msgid ""
+"Use this field to add a prefix to your invoice numbers. If you want your "
+"invoice number to look like ABC-123 then add ABC- to this field."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:298
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:304
+#, php-format
+msgid "You can use current year by adding %s"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:300
+msgid "Invoice Number Prefix"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:303
+msgid ""
+"Use this field to add a prefix to your invoice numbers. If you want your "
+"invoice number to look like 123-ABC then add -ABC to this field."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:306
+msgid "Invoice Number Suffix"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:309
+msgid ""
+"Use this field to change the next Invoice Number. You MUST increase this "
+"number, you can not save a smaller number than the current number."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:311
+msgid ""
+"You can only increase the number, decreasing it could lead to duplicate "
+"invoice numbers."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:312
+#, php-format
+msgid "This option has no affect if you active %s option"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:317
+msgid "Next Invoice Number"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:320
+msgid ""
+"Set the file name format for your PDF files. Bear in mind that your customer "
+"should be able to identify your invoice easily."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:322
+#, php-format
+msgid "You can use company and invoice number and invoice date by adding %s"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:326
+msgid "Invoice Filename Format"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:338
+msgid ""
+"Do you want the invoice date to be the date of order or the date the order "
+"is completed."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:339
+msgid "Which date should the invoice use."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:342
+msgid "Completed Date"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:345
+msgid "Date"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:349
+msgid ""
+"Set the invoice date format, see the docs for further information and "
+"examples."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Invoice/Setting.php:356
+msgid "Date format"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Setting.php:39
+msgid "Show price short"
+msgstr "نمایش کوتاه‌تر قیمت"
+
+#: src/Pmpr/Module/Woocommerce/Setting.php:41
+msgid "Short Price"
+msgstr "کوتاه سازی قیمت"
+
+#: src/Pmpr/Module/Woocommerce/Setting.php:60
+msgid "Nothing selected"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Setting.php:63
+msgid ""
+"Select the items that you do not want to be displayed in navigation bar."
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Setting.php:68
+msgid "Exclude Nav Items"
+msgstr ""
+
+#: src/Pmpr/Module/Woocommerce/Setting.php:87
+msgid "Shop items per page"
+msgstr "تعداد آیتم در هر صفحه فروشگاه"
+
+#: src/Pmpr/Module/Woocommerce/Setting.php:91
+msgid "Attributes tab title"
+msgstr "عنوان تب ویژگی‌ها"
+
+#: src/Pmpr/Module/Woocommerce/Setting.php:92
+msgid "Additional Information"
+msgstr "اطلاعات بیشتر"
+
+#: src/Pmpr/Module/Woocommerce/Setting.php:95
+msgid "Variation Product Guide"
+msgstr "راهنمای تنوع محصولات"
+
+#: src/Pmpr/Module/Woocommerce/Setting.php:161
+#, php-format
+msgid "%s Item"
+msgstr "آیتم‌ %s"
+
+#: src/Pmpr/Module/Woocommerce/Woocommerce.php:113
+msgid "Free"
+msgstr "رایگـــــان"
+
+#: src/Pmpr/Module/Woocommerce/Woocommerce.php:149
+msgid "Sort by:"
+msgstr "مرتب سازی بر اساس:"
+
+#: src/Pmpr/Module/Woocommerce/Woocommerce.php:198
+msgid "WooCommerce"
+msgstr "ووکامرس"
+
+#: src/Pmpr/Module/Woocommerce/Woocommerce.php:202
+msgid "Woocommerce Price"
+msgstr "قیمت ووکامرس"
+
+#: src/Pmpr/Module/Woocommerce/Woocommerce.php:203
+msgid "Convert price of products in woocommerce."
+msgstr "تبدیل قیمت محصولات در افزونه ووکامرس."
+
+#: src/Pmpr/Module/Woocommerce/Woocommerce.php:261
+#, php-format
+msgid "%s days left!"
+msgstr "فقط تا %s روز دیگر!"
+
+#: src/Pmpr/Module/Woocommerce/Woocommerce.php:293
+msgid "Thousands"
+msgstr "هزار"
+
+#: src/Pmpr/Module/Woocommerce/Woocommerce.php:294
+msgid "Millions"
+msgstr "میلیون"
+
+#: src/Pmpr/Module/Woocommerce/Woocommerce.php:295
+msgid "Billions"
+msgstr "میلیارد"
+
+#~ msgid "Customers"
+#~ msgstr "مشتریان"
+
+#~ msgid "User"
+#~ msgstr "کاربر"
+
+#~ msgid "%s Orders"
+#~ msgstr "%s سفارش‌"
+
+#~ msgid "No customer bought %s product."
+#~ msgstr "هیچ مشتری محصول %s خریداری نکرده است."
+
+#~ msgid "Session Duration"
+#~ msgstr "مدت جلسه"
+
+#~ msgid "Minutes"
+#~ msgstr "دقیقه"
+
